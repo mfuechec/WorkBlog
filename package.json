@@ -1,9 +1,10 @@
 {
-  "name": "recipebook",
+  "name": "Basic-React-App",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "start": "nodemon server/server.js",
     "client": "webpack -d --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
