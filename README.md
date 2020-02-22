@@ -10,10 +10,6 @@ npm install
 npm run client
 npm start
 ```
-# In Action
----
-![Screen Shot 2020-02-22 at 2.48.44 PM.png](quiver-image-url/2EFFC6D9F566DD9B6071DB02F0D4F51E.png =306x238)
-
 # Stack
 ---
 <table>
