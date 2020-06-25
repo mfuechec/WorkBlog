@@ -1,21 +1,5 @@
-import React from 'react';
-import axios from 'axios';
+import * as React from "react";
 
-class App extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-
-        }
-
-    }
-    render() {
-        return (
-            <div>
-                Hello World
-            </div>
-        )
-    }
+export default function App() {
+  return <div>Hello World</div>;
 }
-
-export default App;
