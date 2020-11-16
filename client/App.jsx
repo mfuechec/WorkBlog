@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from './components/Navbar.jsx';
+import { Provider } from 'react-redux';
+import { store } from './configure-store';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,21 +11,23 @@ import {
 export default function App() {
   return (
     <Router>
-      <div>
-        <Navbar/>
-      </div>
-        <Switch>
-          <Route path="/three">
-              <Three />
-          </Route>
-          <Route path="/two">
-              <Two />
-          </Route>
-          <Route path="/">
-              <One />
-          </Route>
-        </Switch>
-    </Router>
+      <Provider store={store}>
+        <div>
+          <Navbar/>
+        </div>
+          <Switch>
+            <Route path="/three">
+                <Three />
+            </Route>
+            <Route path="/two">
+                <Two />
+            </Route>
+            <Route path="/">
+                <One />
+            </Route>
+          </Switch>
+    </Provider>
+      </Router>
   );
 }
 
