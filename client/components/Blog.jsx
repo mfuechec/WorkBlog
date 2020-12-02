@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Feed from './Feed.jsx';
-import findAgrianBlogEntries from '../../db/db';
 
 export default function Blog({company}) {
 
