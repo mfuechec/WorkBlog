@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-  entry: './client/index.jsx', // where webpack will START transpiling from
+  entry: ['@babel/polyfill', './client/index.jsx'], // where webpack will START transpiling from
   output: {
     path: path.resolve(__dirname, 'public'), // where webpack will put the compiled file
     filename: 'bundle.js', // name of compiled code file

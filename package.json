@@ -1,5 +1,5 @@
 {
-  "name": "Basic-React-App",
+  "name": "Work-Blog",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -12,8 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.8.3",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
+    "aws-sdk": "^2.802.0",
     "axios": "^0.19.2",
     "babel-loader": "^8.0.6",
     "express": "^4.17.1",
