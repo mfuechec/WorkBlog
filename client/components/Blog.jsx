@@ -11,7 +11,8 @@ export default function Blog({company}) {
 
     function populateEntries() {
         if (company === 'Agrian') {
-            fetch('http://localhost:4001/agrianBlog')
+            // fetch('http://localhost:4001/agrianBlog')
+            fetch('http://workblog-env.eba-c33p6e3b.us-east-2.elasticbeanstalk.com/agrianBlog')
             .then(response => response.json())
             .then(data => {
                 setEntries(data)
